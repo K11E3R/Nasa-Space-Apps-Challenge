@@ -1,4 +1,4 @@
-
+<p align="center"> Team Blank </p>
 <p align="center">🚀 <strong>NASA Space Apps Hackathon: Seismic Detection Across the Solar System</strong> 🌍🌕🚀</p>
 
 My awesome team (Ilyass, Yassine, Tommy, and Mathias) and I had the amazing opportunity to participate in the **NASA Space Apps Hackathon** in Paris! 🎉 We decided to tackle a super exciting and challenging project titled **"Seismic Detection Across the Solar System."** 🌌🌋
