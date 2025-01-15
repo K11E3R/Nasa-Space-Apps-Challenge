@@ -83,7 +83,7 @@ To automate and improve detection accuracy, we employed a machine learning model
    Key features such as amplitude, signal energy, frequency peaks, and waveform patterns were extracted from the seismic data. Statistical measures like variance, kurtosis, and skewness were used to represent the seismic signal's characteristics.
 
 #### 2. **Model Architecture**:
-   We initially trained a model using Random Forest and Gradient Boosting Machines (GBMs) for classifying seismic events. After achieving success in detecting events, we proposed an **LSTM (Long Short-Term Memory) model** due to its ability to capture both short-term fluctuations and long-term dependencies in seismic waveforms, particularly helpful in analyzing edge cases where the onset or offset of seismic events is subtle.
+   We initially trained a model using Random Forest and Gradient Boosting Machines (GBMs) to classify seismic events. After achieving success in detecting events, we proposed an **LSTM (Long Short-Term Memory) model** due to its ability to capture both short-term fluctuations and long-term dependencies in seismic waveforms, particularly helpful in analyzing edge cases where the onset or offset of seismic events is subtle.
 
 #### 3. **Loss Function**:
    Our model achieved a **loss value of 0.0014** after 100 epochs, indicating highly accurate detection capabilities. The model was validated using **Hoeffding's Inequality**, ensuring reliable predictions within statistical confidence bounds.
